@@ -29,7 +29,7 @@ humRes.parse(comment, function(err, lines) {
 		});
 		
 		// Build new comment and save
-		humRes.stringfy(lines, function(err, str) {
+		humRes.stringify(lines, function(err, str) {
 			if (err) {
 				console.log("Error building comment:", err);
 			} else {

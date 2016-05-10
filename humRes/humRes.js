@@ -44,7 +44,7 @@
 	 * @param {{x: number, y: number}[][]} lines Line list
 	 * @param {function(Error, string)} cb Callback
 	*/
-	exports.stringfy = function(lines, cb) {
+	exports.stringify = function(lines, cb) {
 		var buf = new Buffer(1028);
 		var pos = 4;
 		
