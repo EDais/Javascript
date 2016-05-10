@@ -10,7 +10,7 @@ To parse a comment string, use the `parse` function:
 
 Example:
 ```js
-var humRes = require("./humRes");
+var humRes = require("./humRes.js");
 var comment = "";
 
 humRes.parse("eJxjYmBgqBGQVWcYBaNgFIxIAABLegDT;", function(err, lines) {
