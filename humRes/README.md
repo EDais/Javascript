@@ -48,4 +48,5 @@ humRes.stringify(lines, function(err, str) {
 	    // Do something interesting with string here
 		console.log(str);
 	}
+});
 ```
