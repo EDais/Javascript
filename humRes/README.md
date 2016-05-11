@@ -50,3 +50,8 @@ humRes.stringify(lines, function(err, str) {
 	}
 });
 ```
+
+# Results
+
+Comment rendered in game:
+![Comment in game](example/Game.jpg)
