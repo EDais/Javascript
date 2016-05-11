@@ -55,3 +55,16 @@ humRes.stringify(lines, function(err, str) {
 
 Comment rendered in game:
 ![Comment in game](example/Game.jpg)
+
+Converted to an SVG, rendered in Chrome:
+![Comment as SVG](example/SVG.png?raw=true "Comment as SVG")
+
+Converted to an EPS, imported into Photoshop:
+![Comment as EPS](example/EPS.png?raw=true "Comment as EPS in Photoshop")
+
+SVG comment imported into Inkscape to view vector outlines:
+![Vector comment as SVG](example/Inkscape.png?raw=true "Vector SVG comment")
+*Note here the dot in the exclamation mark is missing, since Inkscape doesn't properly handle single point paths*
+
+EPS comment imported into Illustrator to view vector outlines:
+![Vector comment as EPS](example/Illustrator.png?raw=true "Vector EPS comment")
